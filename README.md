@@ -19,11 +19,13 @@ This is your space to store project files, videos, PDFs, notes, images, etc., an
 
 This week, went through the laser cutting and 3d printing tutorials and quiz. I design and laser cut a coaster with the photo of my dog. It was an interesting experience to custom make something useful by myself. 
 
+I used 3mm plywood to make the cut and the result was really satisfying.
+
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster1.jpg">
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster4.png">
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster2.jpg">
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg">
-<video width="200" src="assets/week1/coaster_cutting.mp4" autoplay>
+<video width="200" src="assets/week1/coaster_cutting.mp4">
 
 ---
 
