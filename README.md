@@ -14,25 +14,17 @@ This week, I went through the laser cutting and 3d printing tutorials and quiz. 
 
 I used 3mm plywood to make the cut and the result was really satisfying.
 
-<!-- <img width="200" alt="a Cool Coaster" src="assets/week1/coaster1.jpg">
-<img width="200" alt="a Cool Coaster" src="assets/week1/coaster4.png">
-<img width="200" alt="a Cool Coaster" src="assets/week1/coaster2.jpg">
-<img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg"> -->
-
 <p align="center">
   <img width="200" alt="a Cool Coaster" src="assets/week1/coaster1.jpg">
   <img width="200" alt="a Cool Coaster" src="assets/week1/coaster2.jpg">
   <img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg">
+<img width="200" alt="a Cool Coaster" src="assets/week1/coaster_cutting.gif">
 </p>
 <p align = "center">
   <img width="500" alt="a Cool Coaster" src="assets/week1/coaster4.png">
 </p>
-<p align = "center">
-  <img width="500" alt="a Cool Coaster" src="assets/week1/coaster_cutting.gif">
-</p>
+
 ---
-
-
 ## Quick Links: ##
 
 - [TDF Wiki](https://github.com/Berkeley-MDes/24f-desinv-202/wiki) - the ultimate source for truth and information about the course and assignments
