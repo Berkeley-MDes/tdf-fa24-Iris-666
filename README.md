@@ -28,6 +28,7 @@ I used 3mm plywood to make the cut and the result was really satisfying.
 <video width="320" controls>
   <source src="assets/week1/coaster_cutting.mp4" type="video/mp4">
 </video>
+<video src="assets/week1/coaster_cutting.mp4" width="320"></video>
 
 ---
 
