@@ -21,14 +21,17 @@ This week, went through the laser cutting and 3d printing tutorials and quiz. I 
 
 I used 3mm plywood to make the cut and the result was really satisfying.
 
-<img width="200" alt="a Cool Coaster" src="assets/week1/coaster1.jpg">
+<!-- <img width="200" alt="a Cool Coaster" src="assets/week1/coaster1.jpg">
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster4.png">
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster2.jpg">
-<img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg">
-<video width="320" controls>
-  <source src="assets/week1/coaster_cutting.mp4" type="video/mp4">
-</video>
-<video src="assets/week1/coaster_cutting.mp4" width="320"></video>
+<img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg"> -->
+
+<p align="center">
+  <img width="200" alt="a Cool Coaster" src="assets/week1/coaster1.jpg">
+  <img width="200" alt="a Cool Coaster" src="assets/week1/coaster4.png">
+  <img width="200" alt="a Cool Coaster" src="assets/week1/coaster2.jpg">
+  <img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg">
+</p>
 
 ---
 
