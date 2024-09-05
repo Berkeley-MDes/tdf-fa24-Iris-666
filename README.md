@@ -28,7 +28,8 @@ I used 3mm plywood to make the cut and the result was really satisfying.
   <img width="500" alt="a Cool Coaster" src="assets/week1/coaster4.png">
 </p>
 <p align = "center">
-  <img width="500" alt="a Cool Coaster" src="assets/week1/coaster_cutting.gif">
+![OntheMoon](assets/week1/coaster_cutting.gif)
+  <!-- <img width="500" alt="a Cool Coaster" src="assets/week1/coaster_cutting.gif"> -->
 </p>
 ---
 
