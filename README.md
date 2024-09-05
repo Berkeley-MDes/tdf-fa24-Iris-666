@@ -28,10 +28,10 @@ I used 3mm plywood to make the cut and the result was really satisfying.
 
 <p align="center">
   <img width="200" alt="a Cool Coaster" src="assets/week1/coaster1.jpg">
-  <img width="400" alt="a Cool Coaster" src="assets/week1/coaster4.png">
   <img width="200" alt="a Cool Coaster" src="assets/week1/coaster2.jpg">
   <img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg">
 </p>
+  <img width="400" alt="a Cool Coaster" src="assets/week1/coaster4.png">
 
 ---
 
