@@ -25,7 +25,9 @@ I used 3mm plywood to make the cut and the result was really satisfying.
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster4.png">
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster2.jpg">
 <img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg">
-<video width="200" src="assets/week1/coaster_cutting.mp4">
+<video width="320" controls>
+  <source src="assets/week1/coaster_cutting.mp4" type="video/mp4">
+</video>
 
 ---
 
