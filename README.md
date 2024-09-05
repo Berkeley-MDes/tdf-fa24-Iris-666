@@ -7,17 +7,10 @@ Welcome to Iris's TDF repository!
 
 ---
 
-# Github Background Information & Context
-If you’re new to GitHub, you can think of this as a shared file space (like a Google Drive folder, or a like a USB drive that’s hosted online.) 
-
-This is your space to store project files, videos, PDFs, notes, images, etc., and (hopefully, neatly) organize so it's easy for viewers (and you!) to navigate. That said, it’s super easy for you to share any file or folder with us (your TDF instructional team) - just send us the link!  As a start, feel free to simply add images to the `/assets` folder, which is located [here](/assets). 
-
-### :star: Whatever you write in your **README.md** will show up on the “front page” of your GitHub repo. This is where we’ll be looking for your [weekly progress reports](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/3.0-Weekly-Submissions#weekly-progress-report). They might look something like this: ###
-
 # Week 1: Laser Cutting #
 ## Week of 09/05/2024
 
-This week, went through the laser cutting and 3d printing tutorials and quiz. I design and laser cut a coaster with the photo of my dog. It was an interesting experience to custom make something useful by myself. 
+This week, I went through the laser cutting and 3d printing tutorials and quiz. I design and laser cut a coaster with the photo of my dog. It was an interesting experience to custom make something useful by myself. 
 
 I used 3mm plywood to make the cut and the result was really satisfying.
 
@@ -32,7 +25,10 @@ I used 3mm plywood to make the cut and the result was really satisfying.
   <img width="200" alt="a Cool Coaster" src="assets/week1/coaster3.jpg">
 </p>
 <p align = "center">
-  <img width="400" alt="a Cool Coaster" src="assets/week1/coaster4.png">
+  <img width="500" alt="a Cool Coaster" src="assets/week1/coaster4.png">
+</p>
+<p align = "center">
+  <img width="500" alt="a Cool Coaster" src="assets/week1/coaster_cutting.gif">
 </p>
 ---
 
