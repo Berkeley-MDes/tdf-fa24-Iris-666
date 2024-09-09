@@ -2,7 +2,19 @@
 Welcome to Iris's TDF repository! 
 
 # Menu
-[week 1](README.md#week-1-example-report-1)
+[week 2](README.md#week-2:-experiment-with-rhino-and-grasshopper)
+[week 1](README.md#week-1:-laser-cutting)
+
+
+---
+
+
+# Week 2: Experiment with Rhino and Grasshopper  #
+## Week of 09/12/2024
+
+This week, I went through the laser cutting and 3d printing tutorials and quiz. I design and laser cut a coaster with the photo of my dog. It was an interesting experience to custom make something useful by myself. 
+
+I used 3mm plywood to make the cut and the result was really satisfying. This was also a very helpful refresh for using those machines. 
 
 
 ---
