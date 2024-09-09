@@ -21,7 +21,7 @@ I used 3mm plywood to make the cut and the result was really satisfying. This wa
 
 # Week 1: Laser Cutting #
 ## Week of 09/05/2024
-#week1
+# week1
 This week, I went through the laser cutting and 3d printing tutorials and quiz. I design and laser cut a coaster with the photo of my dog. It was an interesting experience to custom make something useful by myself. 
 
 I used 3mm plywood to make the cut and the result was really satisfying. This was also a very helpful refresh for using those machines. 
