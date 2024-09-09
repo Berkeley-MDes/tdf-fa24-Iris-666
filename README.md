@@ -1,5 +1,5 @@
 # Hello!
-Welcome to Iris's TDF repository! 
+This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
 [week 2](README.md#week-2:-experiment-with-rhino-and-grasshopper)
