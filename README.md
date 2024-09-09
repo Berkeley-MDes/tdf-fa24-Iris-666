@@ -2,8 +2,8 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
-[week 2](README.md#week-of-09/12/2024)
-[week 1](README.md#week-of-09/05/2024)
+[week 2](#week-of-09/12/2024)
+[week 1](#week-of-09/05/2024)
 
 
 ---
