@@ -2,13 +2,13 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
-[week 2](README.md#week-2:-experiment-with-rhino-and-grasshopper)
+[week 2](README.md#wweek2)
 [week 1](README.md#week-1:-laser-cutting)
 
 
 ---
 
-
+#week2
 # Week 2: Experiment with Rhino and Grasshopper  #
 ## Week of 09/12/2024
 
