@@ -14,8 +14,8 @@ This is Tian Qin. Welcome to my TDF repository :)
 This week I started with going through a rhino 8 beginner [tutorial](https://www.youtube.com/watch?v=mAXknDTPULE&list=PLWIvZT_UEpWXs6niI0BiWz2xMg0bHbEfs&index=4) to get familiar with the interface and functions of rhino. The tutorial was only 1 hour, but it took me more than one afternoon to follow the tutorial to finally build a chair. 
 
 <p align="center">
-  <img width="200" src="assets/week2/chair1.png">
-  <img width="200" src="assets/week2/chair2.png">
+  <img height="400" src="assets/week2/chair1.png">
+  <img height="400" src="assets/week2/chair2.png">
 </p>
 
 
