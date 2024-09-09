@@ -11,9 +11,12 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 # Week 2 Experiment with Rhino and Grasshopper  #
 
-This week, I went through the laser cutting and 3d printing tutorials and quiz. I design and laser cut a coaster with the photo of my dog. It was an interesting experience to custom make something useful by myself. 
+This week I started with going through a rhino 8 beginner [tutorial](https://www.youtube.com/watch?v=mAXknDTPULE&list=PLWIvZT_UEpWXs6niI0BiWz2xMg0bHbEfs&index=4) to get familiar with the interface and functions of rhino. The tutorial was only 1 hour, but it took me more than one afternoon to follow the tutorial to finally build a chair. 
 
-I used 3mm plywood to make the cut and the result was really satisfying. This was also a very helpful refresh for using those machines. 
+<p align="center">
+  <img width="200" src="assets/week2/chair1.png">
+  <img width="200" src="assets/week2/chair2.png">
+</p>
 
 
 ---
