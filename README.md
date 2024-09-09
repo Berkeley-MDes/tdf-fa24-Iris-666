@@ -15,7 +15,7 @@ This week I started with going through a rhino 8 beginner [tutorial](https://www
 
 <p align="center">
   <img height="400" src="assets/week2/chair1.png">
-  <img height="400" src="assets/week2/chair2.png">
+  <img height="300" src="assets/week2/chair2.png">
   <img height="300" src="assets/week2/chair4.png">
 
 </p>
