@@ -11,16 +11,24 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 # Week 2 Experiment with Rhino and Grasshopper  #
 
-This week I started with going through a rhino 8 beginner [tutorial](https://www.youtube.com/watch?v=mAXknDTPULE&list=PLWIvZT_UEpWXs6niI0BiWz2xMg0bHbEfs&index=4) to get familiar with the interface and functions of rhino. The tutorial was only 1 hour, but it took me more than one afternoon to follow the tutorial to finally build a chair. I managed to understand some basic but seems to be important rhino concepts during the process, like c plane, planar curves, osnap, pushpull, mirror, inset.
+This week I started with going through a rhino 8 beginner [tutorial](https://www.youtube.com/watch?v=mAXknDTPULE&list=PLWIvZT_UEpWXs6niI0BiWz2xMg0bHbEfs&index=4) to get familiar with the interface and functions of rhino. The tutorial was only 1 hour, but it took me more than one afternoon to follow the tutorial to finally build a chair. I managed to understand some basic but seems to be important rhino concepts during the process, like c plane, planar curves, osnap, pushpull, mirror, inset, scale1D.
 
 <p align="center">
   <img height="400" src="assets/week2/chair1.png">
+  <img height="400" src="assets/week2/chair4.png">
 </p>
 <p align="center">
   <img height="300" src="assets/week2/chair2.png">
-  <img height="300" src="assets/week2/chair4.png">
+  <img height="300" src="assets/week2/chair3.png">
 </p>
 
+I also learned grosshopper with this [tutorial](https://www.youtube.com/watch?v=CzmZjo2_3-M) and successfully built a box with a lid. It was interesting to learn and really helpful for understanding the grasshopper graph we got in class. 
+
+<p align="center">
+  <img height="400" src="assets/week2/gh2.png">
+</p>
+
+One very useful concept from grasshopper is brep. It appears a lot in the example file and I was so confused at first. Later I noticed that brep can be anything and in many cases it’s used for make the diagram clearer and more organized. 
 
 ---
 
