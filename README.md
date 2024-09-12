@@ -18,8 +18,8 @@ This week I started with going through a rhino 8 beginner [tutorial](https://www
   <img height="400" src="assets/week2/chair4.png">
 </p>
 <p align="center">
-  <img height="300" src="assets/week2/chair2.png">
-  <img height="300" src="assets/week2/chair3.png">
+  <img height="250" src="assets/week2/chair2.png">
+  <img height="250" src="assets/week2/chair3.png">
 </p>
 
 I also learned grosshopper with this [tutorial](https://www.youtube.com/watch?v=CzmZjo2_3-M) and successfully built a box with a lid. It was interesting to learn and really helpful for understanding the grasshopper graph we got in class. 
@@ -29,6 +29,12 @@ I also learned grosshopper with this [tutorial](https://www.youtube.com/watch?v=
 </p>
 
 One very useful concept from grasshopper is brep. It appears a lot in the example file and I was so confused at first. Later I noticed that brep can be anything and in many cases it’s used for make the diagram clearer and more organized. 
+
+Another useful trick that I learned from Chuhua is that by clicking this little green button in the upper right corner, I can easily preview what I selected in grasshopper. This really helps me to understand what each part of the grasshopper file is doing.
+
+<p align="center">
+  <img height="400" src="assets/week2/gh1.png">
+</p>
 
 ---
 
