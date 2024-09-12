@@ -36,6 +36,15 @@ Another useful trick that I learned from Chuhua is that by clicking this little 
   <img height="400" src="assets/week2/gh1.png">
 </p>
 
+So with help of that, I drew out the diagram of the steps building the shape of the phone stand. 
+<p align="center">
+  <img height="400" src="assets/week2/diagram1.jpg">
+</p>
+
+And then I started to modify the example file to replace some nodes and change the shape of the phone stand.
+<p align="center">
+  <img height="400" src="assets/week2/gh3.png">
+</p>
 ---
 
 # Week 1 Laser Cutting #
