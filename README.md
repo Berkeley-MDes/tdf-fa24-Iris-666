@@ -2,12 +2,53 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 3](#week-3-building-lampshade-with-grasshopper) \
 [week 2](#week-2-experiment-with-rhino-and-grasshopper) \
 [week 1](#week-1-laser-cutting)
 
 
 ---
+# Week 3 Building Lampshade with Grasshopper
 
+After exploring Rhino and Grasshopper last week, I started trying to build my own model with grasshopper. I chose to create a lampshade cause the small ikea lamp on my desk is very dazzling, as the light bulb is directly facing the eyes. 
+
+I firstly sketched out the shape of my lamp and the lampshade. 
+<p align="center">
+  <img height="250" src="assets/week3/sketch2.PNG">
+  <img height="250" src="assets/week3/sketch1.PNG">
+</p>
+
+Based on a grasshopper tutorial of a [parametric vase](https://www.youtube.com/watch?v=jGIqvAQRXEc), I also sketched out the rough process in grasshopper to make it easier. 
+<p align="center">
+  <img height="300" src="assets/week3/sketch3.PNG">
+</p>
+
+I learned many new components during the process. For example, the Revolution component is used to create a surface by rotating the curve around an axis, so I can create an annular surface as the basic shape of the lampshade. Weave takes two input lists and combines them into one single output list, so it combines the two sets of curves together to make a wavy pattern. Then I use loft to create a surface by connecting those curves. 
+
+To make the shade perfectly fit my lamp, I imported a side photo of my lamp into rhino to check. I also measured the perimeter of each part of my lamp carefully to make sure the size of the model matches the lamp. 
+
+<p align="center">
+  <img height="250" src="assets/week3/lampshade1.gif">
+  <img height="250" src="assets/week3/lampshade2.gif">
+</p>
+
+<p align="center">
+  <img height="250" src="assets/week3/lampshade4.png">
+  <img height="250" src="assets/week3/lampshade5.png">
+</p>
+I encountered many challenges during the process, for example trying to understand what each component is doing and a lot of debugs. However, it turns out the biggest challenge is printing this model out. It failed several times because the shape of the bottom is very wavy and tortuous. And finally, it succeeded on the third try! Although the printing temperature was set too high, makes it very difficult to take off the support. 
+
+<p align="center">
+  <img height="250" src="assets/week3/lampshade3.gif">
+  <img height="250" src="assets/week3/lampshade3.jpg">
+</p>
+
+From this project, I noticed that I should learn about the constrains of the tools and medium that I’m using, and design the project based on that. For example with 3d printer, it would be much easier to print something with a flat bottom instead of a curly bottom.
+
+<p align="center">
+  <img height="250" src="assets/week3/lampshade6.gif">
+  <img height="250" src="assets/week3/lampshade7.gif">
+</p>
 
 # Week 2 Experiment with Rhino and Grasshopper  #
 
