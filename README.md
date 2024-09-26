@@ -2,12 +2,37 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 4](#week-4-my-interaction-ecosystems) \
 [week 3](#week-3-building-lampshade-with-grasshopper) \
 [week 2](#week-2-experiment-with-rhino-and-grasshopper) \
 [week 1](#week-1-laser-cutting)
 
 
 ---
+# Week 4 My Interaction Ecosystems
+<p align="center">
+  <img height="500" src="assets/week4/map.png">
+</p>
+
+I created a network map of my entertainment & media ecosystem, which visualize the devices, applications, and platforms I used in my daily life for entertaining purposes. <br />
+
+I started my map with listing out all the devices or objects I used daily for entertainment. The ones that I used most often are definitely mobile phone, laptop, and ipad. These are my primary devices that serve multiple purposes beyond just entertainment. The overlapping of applications between these devices (e.g., Netflix, WeChat) offer cross-device functionality, allowing for seamless transitions between devices depending on the environment (e.g., using Instagram on mobile phone outside or watching YouTube on the iPad when relaxing at home). <br />
+
+There are some other devices that have specialized roles in the entertainment ecosystem. Switch is primarily for gaming with games like Super Mario Odyssey and Animal Crossing, while Oculus supports VR experiences like Beat Saber. These two devices are highly immersive, focusing specifically on gaming and virtual reality, respectively.<br />
+
+Between devices and platforms, content flows smoothly. Photos captured on the camera may end up edited on Photoshop and then shared via Instagram. Similarly, media consumption across Netflix, YouTube, and podcasts happens seamlessly across my devices, showing a well-connected media ecosystem. <br />
+
+<p align="center">
+  <img height="400" src="assets/week4/print.gif">
+</p>
+
+This week, I also continued exploring 3D printing in Studio Foundation class. I tried the bambu lab 3D printer at the Citris Invention Lab, and the result turned out really delicate. We also learned how to use metal threaded inserts to assemble the 3D printed part and the ccrylic board. 
+
+<p align="center">
+  <img height="300" src="assets/week4/print1.jpg">
+  <img height="300" src="assets/week4/print2.jpg">
+</p>
+
 # Week 3 Building Lampshade with Grasshopper
 
 After exploring Rhino and Grasshopper last week, I started trying to build my own model with grasshopper. I chose to create a lampshade cause the small ikea lamp on my desk is very dazzling, as the light bulb is directly facing the eyes. 
