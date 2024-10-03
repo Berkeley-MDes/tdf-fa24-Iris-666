@@ -41,7 +41,7 @@ Then I started to experiment on the other tutorials. I first tried the servo. It
   <img height="500" src="assets/week5/servo.gif">
 </p>
 
-Next, I tried the button send-on-change example. This is not a complicated example, but I see a lot of potentials from it.
+Next, I tried the button send-on-change example. This is not a complicated example, but I see a lot of potentials from it. For example, I can make physical installations that enable people from different continents to interact with each other through sending interaction data to the cloud. That will give people a sense of connection more than just texting or doing facetime.
 
 <p align="left">
   <img height="500" src="assets/week5/send.gif">
