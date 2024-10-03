@@ -2,6 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 5](#week-5-Photon2) \
 [week 4](#week-4-my-interaction-ecosystems) \
 [week 3](#week-3-building-lampshade-with-grasshopper) \
 [week 2](#week-2-experiment-with-rhino-and-grasshopper) \
@@ -9,6 +10,31 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 ---
+# Week 5 Photon2
+
+First of all, I think one of the most effective ways to address errors appeared during flashing, is unplug the board and plug it in again, if all the other settings are ok. I struggled with errors popped up during flashing several times, and simply replug the board solve most issues. 
+
+I started with modifying the example code we did last thursday. I played around the code and made a simple timer. 
+
+<p align="center">
+  <img height="290" src="assets/week5/timer.gif">
+  <img height="290" src="assets/week5/timer2.gif">
+</p>
+
+Then I started to put the circuit together. The first question I encountered was how to recognize the value of the resistors we got in the kit. I could only find one resistor that looks the same with the one on the circuit diagram. Baurzhan told me that I can calculate the value with [this website](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code). Also in many cases, the value doesn't need to be exactly the same to the diagram. 
+
+<p align="left">
+  <img height="500" src="assets/week5/circuit1.gif">
+</p>
+
+
+After completing the first four steps, I encountered another problem. The LED didn't blink. I noticed that the positive and negative poles of the LED are reversed in the circuit diagram. After changing the connection, the LED successfully blinked with the periodicity.
+
+<p align="left">
+  <img height="500" src="assets/week5/circuit2.gif">
+  <img height="500" src="assets/week5/circuit1.jpg">
+</p>
+
 # Week 4 My Interaction Ecosystems
 <p align="center">
   <img height="500" src="assets/week4/map.png">
@@ -21,6 +47,8 @@ I started my map with listing out all the devices or objects I used daily for en
 There are some other devices that have specialized roles in the entertainment ecosystem. Switch is primarily for gaming with games like Super Mario Odyssey and Animal Crossing, while Oculus supports VR experiences like Beat Saber. These two devices are highly immersive, focusing specifically on gaming and virtual reality, respectively.<br />
 
 Between devices and platforms, content flows smoothly. Photos captured on the camera may end up edited on Photoshop and then shared via Instagram. Similarly, media consumption across Netflix, YouTube, and podcasts happens seamlessly across my devices, showing a well-connected media ecosystem. <br />
+
+I believe in the future, there will be more content flowing between difference devices and platforms. Or there will be less devices serving just for one single purpose, like gaming. Switch, PS5, and other gaming devices may be merged together with our laptop, computer, and finally to an XR device like Meta Orion.
 
 <p align="center">
   <img height="400" src="assets/week4/print.gif">
