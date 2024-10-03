@@ -41,17 +41,28 @@ Then I started to experiment on the other tutorials. I first tried the servo. It
   <img height="500" src="assets/week5/servo.gif">
 </p>
 
-Next, I tried the button send-on-change example.
+Next, I tried the button send-on-change example. This is not a complicated example, but I see a lot of potentials from it.
 
 <p align="left">
   <img height="500" src="assets/week5/send.gif">
 </p>
 
-Finally, it's the fsr (force sensitive resistor) -> RGB-led color fader. 
+Finally, it's the fsr (force sensitive resistor) -> RGB-led color fader. After pasting the example code, I noticed that there are some errors when compiling the code. 
+
+<p align="left">
+  <img height="500" src="assets/week5/error.png">
+</p>
+
+It shows that setTarget and setColor are not declared in the scope, and I think it's an issue related with the function prototype Jeff mentioned during Monday's class. Therefore I modified the code and added function prototypes for those two functions, and it resolved the errors successfully. Now I get to understand that although in the example we did during class, it still works without the function prototypes, there are still cases where function prototype is necessary. So it's just always nice to have it.
+
+After solving the code problem, it works! However, I think the fsr sensor is not very stable. Sometimes it's triggered when I'm not touching it while sometimes it doesn't respond even if I'm touching it really hard. I'm not sure if it's the issue with the unstable connection.
 
 <p align="left">
   <img height="300" src="assets/week5/fsr.gif">
 </p>
+
+Regarding the question what kinds of ecosystems are missing in your daily life, I think the Financial & Banking Ecosystems is missing. As I don't have any background in finance, the financial and banking system always looks complicated for me. It would be great if some AI assistants can help to explain and guide users with no knowledge in finance to learn about the wealth management process. 
+
 
 # Week 4 My Interaction Ecosystems
 <p align="center">
