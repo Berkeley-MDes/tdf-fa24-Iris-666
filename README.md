@@ -17,8 +17,8 @@ First of all, I think one of the most effective ways to address errors appeared 
 I started with modifying the example code we did last thursday. I played around the code and made a simple timer. 
 
 <p align="center">
-  <img height="290" src="assets/week5/timer.gif">
-  <img height="290" src="assets/week5/timer2.gif">
+  <img height="350" src="assets/week5/timer.gif">
+  <img height="350" src="assets/week5/timer2.gif">
 </p>
 
 Then I started to put the circuit together. The first question I encountered was how to recognize the value of the resistors we got in the kit. I could only find one resistor that looks the same with the one on the circuit diagram. Baurzhan told me that I can calculate the value with [this website](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code). Also in many cases, the value doesn't need to be exactly the same to the diagram. 
