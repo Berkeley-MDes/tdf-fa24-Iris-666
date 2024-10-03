@@ -35,6 +35,24 @@ After completing the first four steps, I encountered another problem. The LED di
   <img height="500" src="assets/week5/circuit1.jpg">
 </p>
 
+Then I started to experiment on the other tutorials. I first tried the servo. It was surprisingly easy to connect the circuit. However, I don't have the accelerometer in my kit, so I modified the code to just rotate around the servo. This actually gave me a chance to look deeper into the code, instead of simply copy and paste. I really like the servo colored the three wires so it's easier for users to connect the circuit. 
+
+<p align="left">
+  <img height="500" src="assets/week5/servo.gif">
+</p>
+
+Next, I tried the button send-on-change example.
+
+<p align="left">
+  <img height="500" src="assets/week5/send.gif">
+</p>
+
+Finally, it's the fsr (force sensitive resistor) -> RGB-led color fader. 
+
+<p align="left">
+  <img height="300" src="assets/week5/fsr.gif">
+</p>
+
 # Week 4 My Interaction Ecosystems
 <p align="center">
   <img height="500" src="assets/week4/map.png">
