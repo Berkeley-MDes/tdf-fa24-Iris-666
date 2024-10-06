@@ -2,6 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 6](#week-6-Photon2-Stemma) \
 [week 5](#week-5-Photon2) \
 [week 4](#week-4-my-interaction-ecosystems) \
 [week 3](#week-3-building-lampshade-with-grasshopper) \
@@ -10,6 +11,34 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 ---
+# Week 6 Photon2 Stemma
+
+
+<p align="center">
+  <img width="1000" src="assets/week6/solder.jpg">
+  <img width="1000" src="assets/week6/solder.gif">
+</p>
+
+**Soldering** \
+This is not the first time for me to solder, so it didn't take long to accomplish this. I was originally worried about sticking two pins together when soldering, but it actually went smoothly. 
+
+**Stemma Modules** \
+The APDS9960 is a digital RGB, ambient light, proximity and gesture sensor. The proximity data ranges from 0 to 255, where 0 represents the farthest object from the sensor and 255 represents the closest object. If there is no object within the range, it just return 0. I think the proximity data from the sensor is quite accurate, but I'm not sure about the RGB data. I tried putting objects with different colors above the sensor, but the RGB value didn't change accordingly. For example, as is shown in the image below, when I put a red object above the sensor, the "red" data didn't really become bigger.
+
+<p align="center">
+  <img width="350" src="assets/week6/gesture_sensor.gif">
+  <img width="350" src="assets/week6/color_sensor.gif">
+</p>
+
+The Acceleration sensor works better and is very sensitve. By rotating the sensor, I can see how different data is changing accordingly. I also added a delay in the loop function to slower the data logged in the serial monitor. 
+
+<p align="center">
+  <img width="350" src="assets/week6/acc_sensor.gif">
+  <img width="350" src="assets/week6/acc_sensor2.gif">
+</p>
+
+
+
 # Week 5 Photon2
 
 First of all, I think one of the most effective ways to address errors appeared during flashing, is unplug the board and plug it in again, if all the other settings are ok. I struggled with errors popped up during flashing several times, and simply replug the board solve most issues. 
