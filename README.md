@@ -37,7 +37,20 @@ The Acceleration sensor works better and is very sensitve. By rotating the senso
   <img width="350" src="assets/week6/acc_sensor2.gif">
 </p>
 
+One of the major achievements this week was the completion of the Project 2 proposal. We created both a Draft System Architecture and a Process Diagram, which significantly helped us clarify the various components and interactions involved in the project. These diagrams allowed us to visualize the workflow from sensors to actuators, cloud services, and user interactions.
 
+<p align="center">
+  <img width="700" src="assets/week6/diagram1.png">
+  <img width="700" src="assets/week6/diagram2.png">
+</p>
+The architecture involves key components like a Particle Photon 2, connected sensors (such as Temperature and Gesture Sensors), and actuators (LED Lights, Linear Actuator, and Motor Drive).
+Data from the sensors is processed by the Photon 2 and then sent to the cloud via Particle Cloud Services, which is connected to an external API, Socket.io. This ensures continuous communication between the hardware and the web interface, enabling real-time responses to user inputs.
+
+Having these diagrams in place early in the project has been instrumental for better planning and anticipating potential bottlenecks. They provided a clear framework for how data moves through the system and how users interact with it, ensuring the project is on track with technical feasibility and user experience.
+
+These diagrams not only helped in the current project’s planning but could also serve as templates for future projects involving IoT and interactive systems. The architecture shows a scalable framework that could easily be adapted to other types of sensors and actuators. For instance, replacing gesture sensors with other interaction modes (such as sound or pressure sensors) would require minimal changes to the core architecture, making it highly adaptable for diverse applications.
+
+Additionally, the integration of Socket.io with Particle Cloud Services suggests potential use in future multi-user interactive installations. We could extend this to projects where real-time user collaboration or interaction across different locations is essential, enabling a more robust, distributed network of users interacting with physical objects or virtual systems.
 
 # Week 5 Photon2
 
