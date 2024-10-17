@@ -2,6 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 7](#week-6-Project2-Experiments) \
 [week 6](#week-6-Photon2-Stemma) \
 [week 5](#week-5-Photon2) \
 [week 4](#week-4-my-interaction-ecosystems) \
@@ -11,6 +12,75 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 ---
+# Week 7 Project2 Experiments
+This week, we conducted a variety of experiments for Project 2 following our group meeting with TJ. These experiments not only advanced our technical understanding but also paved the way for future creative applications.
+
+**Diagrams Update** \
+First, we updated our proposal, system architecture, and process diagram based on TJ's feedback and suggestions. We added one more Photon to explore how to facilitate communication between two Photons.  This addition not only strengthens our project’s communication framework but also introduces a new layer of complexity that will allow us to investigate multi-node interactions.
+
+<p align="center">
+  <img width="700" src="assets/week7/diagram1.png">
+  <img width="700" src="assets/week7/diagram2.png">
+</p>
+
+**Dynamixel Servo** \
+As suggested by TJ, we acquired three Dynamixel XL320 servos from Sudhu, which are significantly more powerful than standard servos and can provide torque and status data. However, we encountered challenges finding a compatible library for Particle. Despite trying various methods, we were unsuccessful and ultimately decided to revert to standard servos for our ongoing experiments.
+
+<p align="left">
+  <img width="700" src="assets/week7/dynamixel.jpg">
+</p>
+
+**Linear Actuator** \
+Initially, we considered purchasing linear actuators from Amazon, but found them to be prohibitively expensive. Instead, we opted to create our own using standard servos and 3D printing. Chuhua designed the 3D model, which we printed with promising results.
+
+<p align="center">
+  <img width="350" src="assets/week7/linear1.jpg">
+  <img width="350" src="assets/week7/linear2.jpg">
+</p>
+
+The actuator's performance exceeded our expectations, inspiring us to experiment with varying the disk's shape in the coming days. This DIY approach not only reduced costs but also provided valuable hands-on experience in mechanical design and prototyping.
+
+**Neopixel** \
+We faced significant difficulties with the Neopixel, even in lighting it up. Initially, the Neopixel library was incompatible with Particle, resulting in compilation errors despite correctly importing the library. After consulting ChatGPT, I wrote code to light up the Neopixel without a library, which confirmed that the Neopixel was functional.
+
+Thanks to TJ and Sudhu, we finally managed to use the Neopixel library to control the Neopixel.
+
+<p align="center">
+  <img height="300" src="assets/week7/neopixel.jpg">
+  <img height="300" src="assets/week7/neopixel1.gif">
+</p>
+
+I further modified the code to create fading effects and controlled the lights with a potentiometer.
+<p align="center">
+  <img height="300" src="assets/week7/neopixel2.gif">
+  <img height="300" src="assets/week7/neopixel3.gif">
+</p>
+
+Additionally, we made the potentiometer control the servo.
+<p align="center">
+  <img width="700" src="assets/week7/neopixel4.gif">
+</p>
+
+**Physical Structure** \
+We purchased rubber material to laser cut an auxetic structure. Our initial plan was to create an arched face, but after some experimentation, we realized it was challenging to achieve a well-formed arch. Consequently, we adjusted our design to create a flat surface instead. This is a very interesting part for me, since I get to know these architecture related concepts for the first time. This kind of structure is very challenging but I feel excited to learn about it. 
+
+<p align="center">
+  <img width="700" src="assets/week7/auxetic.jpg">
+</p>
+
+**Sensors** \
+We tested our gesture and temperature sensors, building on our previous experiences, which made this phase of the experiment relatively smooth. Chuhua also designed the container for the sensors in our installation.
+
+<p align="center">
+  <img width="350" src="assets/week7/sensor.gif">
+  <img width="350" src="assets/week7/sensor.jpg">
+</p>
+
+**Future Directions** \
+Looking ahead, we foresee several avenues for development. The integration of more advanced communication protocols between the Photons could lead to more sophisticated interactions and data sharing capabilities. Additionally, experimenting with different shapes and mechanisms for our linear actuator may yield innovative movement patterns that enhance the overall project design.
+
+Moreover, our recent success with the Neopixel demonstrates the potential for integrating visual elements more effectively into our installations, offering an engaging experience for users. This opens the door to exploring more complex lighting sequences and color patterns that can react to user input or environmental changes.
+
 # Week 6 Photon2 Stemma
 
 
