@@ -2,7 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
-[week 7](#week-6-Project2-Experiments) \
+[week 7](#week-7-Project2-Experiments) \
 [week 6](#week-6-Photon2-Stemma) \
 [week 5](#week-5-Photon2) \
 [week 4](#week-4-my-interaction-ecosystems) \
