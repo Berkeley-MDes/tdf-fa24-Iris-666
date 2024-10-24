@@ -2,6 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 8](#week-8-Project2) \
 [week 7](#week-7-Project2-Experiments) \
 [week 6](#week-6-Photon2-Stemma) \
 [week 5](#week-5-Photon2) \
@@ -12,6 +13,12 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 ---
+# Week 8 Project2 
+<p align="center">
+  <img width="700" src="assets/week8/project2.png">
+</p>
+
+
 # Week 7 Project2 Experiments
 This week, we conducted a variety of experiments for Project 2 following our group meeting with TJ. These experiments not only advanced our technical understanding but also paved the way for future creative applications.
 
