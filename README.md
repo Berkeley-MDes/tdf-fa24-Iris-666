@@ -2,6 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 9](#week-9-Exploring-LLM) \
 [week 8](#week-8-Project2) \
 [week 7](#week-7-Project2-Experiments) \
 [week 6](#week-6-Photon2-Stemma) \
@@ -13,6 +14,12 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 ---
+# Week 9 Exploring LLM
+
+
+
+
+
 # Week 8 Project2 
 <p align="center">
   <img width="700" src="assets/week8/project2.png">
