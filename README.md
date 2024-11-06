@@ -2,6 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 10](#week-9-Mini-Me) \
 [week 9](#week-9-Exploring-LLM) \
 [week 8](#week-8-Project2) \
 [week 7](#week-7-Project2-Experiments) \
@@ -14,6 +15,10 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 ---
+# Week 10 Mini Me
+
+
+
 # Week 9 Exploring LLM
 
 
@@ -24,6 +29,74 @@ This is Tian Qin. Welcome to my TDF repository :)
 <p align="center">
   <img width="700" src="assets/week8/project2.png">
 </p>
+
+## Project Title: Echoes of the Earth  
+**Team Name**: Fuller Team  
+**Team Members**: Tian Qin, Chuhua Ding  
+**Link to Presentation Video**: [https://youtu.be/nMcBBjLFRlk](https://youtu.be/nMcBBjLFRlk)  
+
+## Diagrammatic Analysis
+
+### Ecosystem Architecture
+
+<p align="center">
+  <img width="700" src="assets/week8/diagram1.png">
+</p>
+
+The ecosystem architecture diagram provides an overview of the interconnected components and data flow within our interactive installation:
+
+- At the center of the system, Particle Cloud Services acts as a mediator, enabling communication between physical components and external users. It receives requests from Socket.io, which manages user interactions on the web interface. The web-based connection allows users to influence the installation remotely, with user data transmitted to the Particle Cloud as an output, and response data fed back to Socket.io as an input.
+- Two Particle Photon 2 microcontrollers manage the core sensory and response functions of the installation. The first Photon processes analog inputs from the Gesture Sensor (Stemma QT) and Temperature Sensor (Stemma QT), which track user gestures and ambient temperature, respectively. This Photon then sends data to the Particle Cloud, facilitating real-time interaction.
+- The second Particle Photon 2 receives data from the Particle Cloud via Wi-Fi, interpreting inputs to control physical outputs. It drives the Servos, producing analog outputs that create motion, and adjusts the Neopixel color and brightness. These elements work in concert to simulate the shifting, wave-like behavior of a natural ecosystem.
+
+### Ecosystem Process
+<p align="center">
+  <img width="700" src="assets/week8/diagram2.png">
+</p>
+
+This process diagram provides a clear, step-by-step view of the interactions and data flow within our installation’s ecosystem.
+
+- The left side of the diagram starts with User Interactions, such as gesture inputs and web page interactions. These interactions are picked up by Sensors—the Temperature Sensor and Gesture Sensor—which continually monitor environmental conditions and user gestures. This initial stage reflects how data from the physical environment is captured and relayed for processing.
+- The diagram then shows how data moves into the Microcontroller stage. The Photon 2_1 microcontroller reads sensor data and sends it via Wi-Fi to the Particle Cloud Service. The Particle Cloud then transmits this data to Socket.io, connecting with the external web interface, allowing user interactions from the web page to influence the installation. Additionally, the Photon 2_2 microcontroller handles actuator responses, sending signals to the Neopixels and Servos based on received data. These responses manifest physically, with changes in light and the dome structure’s movement, providing feedback to the users.
+
+## Prototype Demonstration
+
+<p align="center">
+  <img width="350" src="assets/week8/project2.png">
+  <img width="350" src="assets/week8/project2_2.png">
+</p>
+<p align="center">
+  <img width="350" src="assets/week8/project2_3.png">
+  <img width="350" src="assets/week8/project2_4.png">
+</p>
+
+*Echoes of the Earth* is an interactive installation that captures the dynamic and fluid nature of ecosystems. Its rubber surface, animated by servos, undulates in response to hand gestures, evoking the movement of sand dunes or ripples on water when touched by wind or living creatures. As the room temperature shifts, the installation’s light adjusts, representing how temperature changes can impact natural habitats. Through its web integration, Echoes of the Earth extends beyond physical space, allowing remote audiences to influence the installation’s movements, underscoring the global impact of local actions. This piece serves as a reminder of the intricate connections that shape our environment, inviting contemplation of our role in sustaining or disturbing the delicate balance of nature.
+
+---
+
+### Development Process
+
+1. **Individual Component Testing: Neopixels and Servos**: We began by testing individual components to ensure they worked as intended. This included lighting up neopixels and controlling the rotation of servos to verify that each part was responsive and adjustable.
+2. **Sensor Data Logging and Calibration**: Next, we experimented with the Temperature Sensor and Gesture Sensor, logging data to calibrate them. This step allowed us to understand sensor sensitivity and ensure they could accurately capture environmental changes and user gestures.
+3. **Potentiometer-Controlled Brightness and Servo Movement**: To further refine control, we conducted experiments using a potentiometer to adjust the brightness of the neopixels and the rotation of the servos. This provided insights into analog input adjustments, helping us balance the interaction flow.
+4. **Cloud Integration and Data Synchronization via Particle Photons**: We connected two Particle Photons to the Particle Cloud, experimenting with sending sensor data from one Photon to another. This integration enabled real-time data synchronization, laying the foundation for remote user interaction.
+5. **Socket.io Webpage Connection**: Using Socket.io and a Node.js server hosted on Glitch, we tested interactions between the web page and the Particle Cloud. Each time a new user accessed the page, the server logged their connection, creating a glowing dot to represent the user’s presence.
+6. **Full System Integration and Stress Testing with Four Servos and Two Neopixels**: After ensuring each component functioned independently, we combined all elements, including four servos and two neopixels, for full system integration. This step involved stress-testing to ensure stable operation without signal interference or power issues.
+7. **Physical Fabrication Prototyping with Grasshopper**: Before constructing the physical structure, we used Grasshopper to experiment with different patterns and structural layouts. This ensured that movable parts would not interfere with each other and provided a visualization of the dome’s potential movement.
+
+---
+## Speculations
+
+### Human Experiences
+Our project illustrates how systems thinking could reshape cultural expectations in the Anthropogenic Environment, encouraging individuals to see their actions as part of a larger network. Just as gestures influence the installation’s movement and lighting, people might become more aware of their impact on the environment, leading to more mindful, ecologically conscious behaviors. This project experience suggests a shift toward valuing sustainable technologies that respond to human actions within environmental limits.
+
+
+### Engineering
+Our project’s interconnected components showcase how engineering in Digital Ecosystems goes beyond isolated products, creating responsive, adaptive systems. By syncing sensors, cloud services, and actuators, we designed an installation that dynamically responds to users. This approach could shift engineering expectations, with future systems designed to adapt in real time to users and environments. Engineers might increasingly be seen as creators of flexible, sustainable systems rather than static products.
+
+
+### Role of AI in the Design Process
+AI could enhance projects like ours by predicting user behavior and adapting responses for a seamless experience. In broader Digital Ecosystems, AI might continuously analyze data to maintain balance, such as optimizing resource use in response to environmental changes, as with our temperature-sensitive LEDs. This could lead to AI-driven ecosystems that balance human needs and ecological health, mediating interactions for sustainable, adaptive environments.
 
 
 # Week 7 Project2 Experiments
