@@ -2,7 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
-[week 10](#week-9-Mini-Me) \
+[week 10](#week-10-Mini-Me) \
 [week 9](#week-9-Exploring-LLM) \
 [week 8](#week-8-Project2) \
 [week 7](#week-7-Project2-Experiments) \
