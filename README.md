@@ -24,16 +24,205 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 
-
 # Week 10 Mini Me
+## Reflections
+### What I Learned
+* This week was dedicated to refining the AI agent’s behavior and exploring the nuances of prompt engineering. A major focus was on designing prompts that could guide the agent to adopt specific roles, such as an interviewer or creative consultant. I discovered how slight variations in phrasing could significantly impact the agent’s tone, depth of response, and ability to engage in role-specific conversations. This process highlighted the importance of precision and clarity in prompt design, as these factors directly influence the agent’s performance.
+<p align="center">
+  <img width="700" src="assets/week10/week10_1.png">
+</p>
+<p align="center">
+  <img width="700" src="assets/week10/week10_2.png">
+</p>
+* Another area of exploration was the adjustment of temperature settings, which control the randomness of the model’s responses. Higher temperatures resulted in more creative and diverse outputs, while lower temperatures produced more consistent and predictable answers. Through systematic experimentation, I gained a deeper understanding of how to strike a balance between creativity and coherence, tailoring the agent’s behavior to suit different scenarios. For instance, higher temperatures were useful for brainstorming sessions, while lower temperatures were more appropriate for professional interviews or technical explanations.
+
+<p align="center">
+  <img width="700" src="assets/week10/week10_3.png">
+</p>
+
+### How I Learned
+
+I employed an iterative approach, conducting multiple rounds of testing to evaluate how different prompts and temperature settings influenced the agent’s responses. By embedding contextual variables—such as specific locations, professional roles, and project details—I was able to observe how these factors enhanced the agent’s ability to deliver scenario-specific answers. For example, when prompted with questions about my experiences in Shanghai, the agent was able to draw on relevant information from the knowledge base to provide detailed and contextually accurate responses. This iterative process also involved analyzing the trade-offs between response quality and generation speed, particularly when experimenting with higher temperature settings.
+
+### State of Work
+By the end of this week, the agent demonstrated significant improvements in its ability to adapt to different scenarios and roles. It could effectively balance creativity and precision, delivering responses that were both engaging and contextually relevant. However, challenges remain in ensuring the accuracy of responses when handling particularly complex prompts, which will be a focus for future iterations.
+<p align="center">
+  <img width="700" src="assets/week10/week10_4.png">
+</p>
+
+## Diagrammatic Analysis of My Experiments
+<p align="center">
+  <img width="700" src="assets/week9/week9_6.png">
+</p>
+The system is designed around a Knowledge Base that stores core documents and experiences relevant to the interview process. In this case, I uploaded:
+
+* Resume: Highlights professional experience, skills, and educational background.
+* Project Reports (TDF Project 1 & TDF Project 2): Detailed documentation of past project work.
+* Personal Statement: Provides insights into my personal motivations, career goals, and relevant experiences.
+These files form a centralized repository of information that the agent can reference, enabling it to generate contextually relevant and accurate responses based on comprehensive knowledge about my background.
+
+### Process Flow
+The agent flow proceeds through a series of steps to generate responses:
+1. Conversational Input: The user provides an input, which could be an interview question or request for specific information.
+2. Search Knowledge: The agent searches the knowledge base for relevant content that matches the conversational input. This step allows it to identify and retrieve the most pertinent information from the documents uploaded.
+3. Prompt: A predefined prompt guides the LLM in how to respond. 
+4. LLM Processing: The prompt is then processed by a Claude 3.5 Sonnet LLM, which generates a response based on the prompt and the information from the knowledge base. This step leverages the LLM’s capacity to interpret and respond with human-like language.
+5. Output: Finally, the system outputs the response, providing an answer that is both relevant and coherent, based on the knowledge stored in the base.
+
+## Final Experiments
+### What is your purpose?
+“My purpose is to represent and share information about my professional experience as Tian Qin. I'm here to discuss my work as a creative technologist, engineer, and artist, as well as my academic background and career goals.
+I see myself as a "wanderer" in the fields of technology and art, always exploring new possibilities and seeking creative inspirations. My journey has taken me through various disciplines, from economics to computer science, before settling on Interactive Media Arts.
+I aim to turn everyday observations and interests into meaningful subjects of study, research, and creation. For example, I've developed games inspired by simple things like leaves swirling in the wind or people's reliance on navigation apps.
+More recently. I've become passionate about art education and creating projects that can impact more people. I've taught game design to middle school students and led workshops on AI in art.
+Is there a specific aspect of my experience or work you'd like to know more about?”
+
+### Who are you representing?
+“I am representing Tian Qin, a creative technologist, engineer, and artist. Tian has a background in Interactive Media Arts from New York University Shanghai and is currently pursuing a Master of Design at the University of California, Berkeley. Tian's work spans various fields including R/AR development, interactive installations, game design, and physical computing. Is there a particular aspect of Tian's background or work you'd like to know more about?”
+
+### What projects have you worked on this semester?
+“This semester, I've worked on two main projects as part of my studies at UC Berkeley:
+1. WaveGlow: This was my project for the Technology Design Foundation course. It's a computational design project where I created a parametric lampshade using Rhino and Grasshopper. This was my first time using 3D modeling tools, so it was quite challenging but rewarding. The lampshade was designed to diffuse light while maintaining a minimal, simple aesthetic. I used white PLA filament for 3D printing, though I faced some structural challenges that required multiple printing attempts.
+2. Echoes of the Earth: This was a team project for the same course, where I collaborated with Chuhua Ding. We created an interactive installation that responds to hand gestures and temperature changes. The installation uses Particle Photon 2 microcontrollers, various sensors, servos, and neopixels. It also integrates with a web interface using Socket.io, allowing remote interaction. The project aims to represent the dynamic nature of ecosystems and our impact on the environment.
+Both projects allowed me to explore new technologies and apply my skills in creative ways.
+They also challenged me to think about user experience, environmental impact, and the integration of physical and digital elements in design.
+Is there a specific aspect of either of these projects you'd like to know more about?”
+
+### Can you mention a challenge faced in one of the projects and how it was overcome?
+“Certainly! One significant challenge I faced was during the WaveGlow project, specifically with the 3D printing process. The complex wavy bottom design of the lampshade proved to be particularly problematic.
+The main issue was that the wavy design at the bottom made it difficult for the 3D printer to create a stable base. This resulted in several failed printing attempts. It was frustrating because each attempt consumed time and materials, increasing both waste and energy consumption.
+To overcome this challenge, I had to go through a process of trial and error. After two unsuccessful attempts, I finally managed to successfully print the model on the third try. However, even with this success, the high printing temperature made it challenging to remove the support structure without damaging the piece.
+This experience taught me a valuable lesson about understanding tool constraints and adapting designs accordingly. I learned that in 3D printing, it's generally much easier to print objects with a flat bottom as they provide a stable base and reduce the likelihood of printing failures.
+Moving forward, I plan to consider these fabrication constraints earlier in the design process. For future projects, I might modify designs to include a flatter base or explore alternative printing orientations to minimize support structures. This challenge highlighted the importance of not just creating aesthetically pleasing designs, but also ones that are practical to fabricate.
+This experience also emphasized the value of persistence and problem-solving in design work.
+Despite the setbacks, I was able to achieve my design goals by adjusting my approach and learning from each attempt.”
+
+### Given the new set of technical skills you have, what would make an exciting final project to showcase and extend these skills?
+“Given the new set of technical skills I've acquired this semester, particularly in computational design, physical computing, and interactive installations, an exciting final project could be an immersive, interactive AR (Augmented Reality) experience that bridges the physical and digital worlds. This project would allow me to showcase and extend my skills while aligning with my interests in AR, education, and public engagement.
+Here's an idea for such a project:
+"Living History: An Interactive AR Museum Experience"
+This project would combine:
+1. Computational Design: Using tools like Rhino and Grasshopper to create parametric 3D models of historical artifacts or environments. These models could be adjusted in real-time based on user interaction or new historical data.
+2. Physical Computing: Incorporating sensors and actuators in the physical space to create a responsive environment. For example, proximity sensors could trigger different AR experiences as visitors move through the space.
+3. AR Development: Using Unity or another AR development platform to create the augmented reality layer. This would involve 3D modeling, animation, and interactive programming.
+4. Web Development: Creating a companion web application that allows remote users to interact with the installation, similar to the Socket.io integration we used in the Echoes of the Earth project.
+5. Data Visualization: Incorporating real-time data visualization to show how historical events or artifacts connect to current issues or other historical periods.
+The installation could be set up in a museum or public space, where visitors use their smartphones or provided AR glasses to explore.
+As they move through the space, they would see historical scenes overlaid on the physical environment, interact with 3D models of artifacts, and trigger different narratives or data visualizations.
+For example, pointing their device at a physical model of an ancient city might cause an AR overlay to show the city coming to life, with animated figures and buildings. Gestures could be used to fast-forward through time, showing how the city changed over centuries.
+This project would extend my skills by:
+1. Combining physical and digital design in a more complex way
+2. Explaining more advanced AR development techniques
+3. Integrating real-time data processing and visualization
+4. Addressing the challenges of creating engaging, educational experiences for a public audience
+It would also align with my interest in using technology to make knowledge more accessible and engaging, particularly in educational and museum contexts. This project could serve as a prototype for how AR can be used to create more immersive, interactive learning experiences in public spaces.
+What do you think about this idea? Does it seem like a good way to showcase and extend the skills I've developed?”
+
+
+Then, I put this answer into the Interview Question Generator agent that I created with a simple prompt with RAG. It generated many valuable questions. 
+
+Question: “Thank you for providing that information about your projects, Tian. Both WaveGlow and Echoes of the Earth sound like fascinating and innovative projects. I'd like to focus on Echoes of the Earth for a moment, as it seems to involve a complex integration of various technologies.
+Could you elaborate on your specific role in the Echoes of the Earth project? What were your main responsibilities, and what challenges did you face in integrating the different components (such as the Particle Photon 2 microcontrollers, sensors, and the web interface)? How did you overcome these challenges?”
+
+I then put the question generated by the agent put back to the former agent which represents me. The answer it generated is:
+“Thank you for your interest in the Echoes of the Earth project. I'm glad to elaborate on my role and experiences.
+As one of two team members on this project, I had significant responsibilities across multiple aspects of the installation. My primary focus was on the technical integration and programming of the various components.
+Specifically, I was responsible for:
+1. Programming the Particle Photon 2 microcontroller to interface with the sensors (temperature and gestures) and control the actuators (servos and neopixels).
+2. Setting up the communication between the Particle Cloud and our Socket.io server to enable real-time data exchange.
+3. Developing the web interface that allowed remote users to interact with the installation. 
+4. Integrating all these elements into a cohesive, responsive system.
+One of the main challenges I faced was ensuring smooth, real-time communication between all components. Latency issues between the web interface, Particle Cloud, and physical installation initially caused noticeable delays in the system's responsiveness. To overcome this, I implemented an optimized data transmission protocol and created a queuing system for web interactions.
+This significantly reduced lag and improved the overall user experience.
+Another challenge was coordinating the movements of multiple servos to create natural, wave-like motions in the rubber surface. This required careful timing and synchronization to avoid jerky or unnatural movements. I addressed this by developing a coordinated timing mechanism that ensured smooth, synchronized motion across all servos.
+Integrating the temperature sensor data with the neopixel lighting also presented some difficulties in terms of creating a natural, gradual color change that accurately reflected temperature fluctuations. I solved this by implementing a more nuanced mapping between temperature readings and color values, resulting in subtle, organic transitions.
+Throughout the project, I had to continuously test and refine the system, often making real-time adjustments during our integration phase. This iterative process was crucial in achieving the seamless interaction we were aiming for.
+Overall, while challenging, this project significantly enhanced my skills in IoT integration, real-time data processing, and creating responsive physical-digital interfaces. It reinforced my passion for creating immersive, interactive experiences that bridge the digital and physical worlds.” 
+
+The next question it generated was:
+“The project seems to have required a balance between technical implementation and creative design. How do you approach finding this balance, and how important do you think it is in the field of creative technology?”
+
+The answer to this question was:
+“Finding the balance between technical implementation and creative design is absolutely crucial in creative technology, and it's a challenge I'm passionate about tackling in my work.
+In my approach, I view technical skills and creative vision as equally important and deeply intertwined. I don't see them as separate phases, but rather as parallel, iterative processes that inform each other throughout a project's development.
+For Echoes of the Earth, this balance was critical. The creative concept - an interactive installation representing ecosystem dynamics - drove many of our technical decisions. At the same time, our technical capabilities and constraints shaped the creative possibilities.
+Here's how I typically approach this balance:
+1. Start with a strong creative concept: I begin by clearly defining the experience we want to create and the emotions or ideas we want to evoke. For Echoes of the Earth, we wanted to convey the interconnectedness of ecosystems and human impact.
+2. Explore technical possibilities: I then research and experiment with various technologies that could bring the concept to life. This often involves rapid prototyping to test different approaches.
+3. Iterate between creative and technical: As technical realities become clear, I refine the creative vision. Likewise, creative breakthroughs often inspire new technical solutions. This back-and-forth is constant throughout development.
+4. Prioritize the user experience: When faced with tradeoffs, I always prioritize what will create the best experience for users.
+Sometimes this means simplifying a technical implementation to make an interaction more intuitive.
+5. Embrace constraints: I've found that technical limitations can often spark creative solutions. For example, when we faced challenges with servo motor coordination, it led us to explore more organic, wave-like movements that enhanced the installation's aesthetic.
+6. Collaborate across disciplines: Working closely with team members who have different strengths - whether more technical or more design-focused - is invaluable for maintaining this balance.
+In the field of creative technology, I believe this balance is not just important, but essential. The most impactful and innovative work in this field often comes from a deep integration of technical prowess and creative vision. It's about using technology not just as a tool, but as a medium for expression and experience design.”
+
+The last question was:
+“Lastly, considering the challenges you faced and overcame in this project, how has this experience shaped your approach to problem-solving in complex technical environments?”
+
+
+And the answer was:
+“The Echoes of the Earth project significantly shaped my approach to problem-solving in complex technical environments. This experience reinforced some existing strategies and taught me new ones that I now apply to all my work.
+Firstly, it emphasized the importance of systems thinking. When dealing with multiple interconnected components like we had in this project, I learned to always consider the ripple effects of any change or solution. For instance, optimizing the data transmission between the web interface and Particle Cloud had implications for the responsiveness of the physical installation.
+This experience taught me to map out entire systems before diving into specific problems, ensuring I understand how each part affects the whole.
+Secondly, I developed a stronger appreciation for iterative development and rapid prototyping. The challenges we faced, particularly with real-time responsiveness, couldn't be solved in one go. I adopted a more agile approach, implementing small changes, testing them quickly, and refining based on results. This iterative process not only solved immediate issues but often led to unexpected improvements in other areas of the project.
+The project also reinforced the value of cross-disciplinary collaboration. When facing complex issues, I found that combining perspectives from different fields often led to more innovative solutions. For example, when struggling with the natural movement of the servos, insights from studying fluid dynamics helped create more organic motion patterns. This experience has made me more proactive in seeking diverse viewpoints when tackling complex problems.
+Additionally, I learned the importance of prioritization and knowing when to pivot. With multiple challenges and limited time, I had to constantly assess which issues were most critical to the core experience we were trying to create.
+Sometimes, this meant simplifying certain aspects to ensure the most important features worked flawlessly. This has made me more strategic in my problem-solving approach, always keeping the end goal in sight.
+Lastly, this project highlighted the value of thorough documentation and knowledge sharing.
+As we solved each challenge, I made sure to document our process and solutions clearly. This not only helped my teammate and me stay aligned but also created a valuable resource for future projects. Now, I make documentation an integral part of my problem-solving process, which has proven invaluable in complex, long-term projects.
+Overall, Echoes of the Earth sharpened my ability to navigate complexity, fostered a more holistic and flexible approach to problem-solving, and reinforced the importance of collaboration and continuous learning in tackling technical challenges. These lessons continue to influence my work as a creative technologist, enabling me to take on increasingly complex and innovative projects with confidence.”
+
+The experiments with the LLM agent revealed unique, insightful aspects about how it could assist in interview preparation and answer formulation, helping me articulate my experience in creative technology. Some of the answers were too long, but provided many novel aspects that I’ve never thought about to answer those questions. The agent provided in-depth answers that brought out novel aspects of my work, some of which I hadn’t previously considered. For example, it reflected on “Echoes of the Earth” by emphasizing specific skills, like real-time data processing and IoT integration, highlighting not only technical mastery but also the creative problem-solving involved. This allowed me to articulate my role with more precision and confidence.
+
+
+## Speculations
+### Future of Tools:
+I envision a future where AI tools seamlessly integrate with professional platforms like LinkedIn and GitHub, automating the creation and updating of dynamic resumes, portfolios, and project showcases. These tools could also offer real-time feedback and suggestions, enhancing their utility for professionals across various industries. Additionally, the development of adaptive AI systems that can adjust their behavior based on user preferences and contextual cues will likely become a key area of focus.
+
+### Future of My Work:
+Moving forward, I plan to optimize the agent’s token usage to streamline its responses and improve efficiency. Another goal is to explore the use of temporal variables, enabling the agent to contextualize its answers based on time-specific data. This would enhance its ability to provide relevant and timely insights, particularly in dynamic professional environments.
 
 
 
 # Week 9 Exploring LLM
+## Reflections
+### What I Learned
+* This week, I delved into the basics of working with large language models (LLMs) like Claude 3.5 Sonnet and explored the Retrieval-Augmented Generation (RAG) technique. I learned how to integrate a knowledge base into an AI agent, enabling it to provide personalized, context-specific answers.
+<p align="center">
+  <img width="700" src="assets/week9/week9_1.png">
+</p>
 
+* Experimenting with embedding variables, I realized the importance of using specific professional data to create highly customized and accurate responses.
+* Working with the RAG technique taught me to leverage external knowledge sources to enhance the agent’s generative capabilities. This significantly improved the agent's ability to represent my personal and professional identity.
 
+<p align="center">
+  <img width="700" src="assets/week9/week9_2.png">
+</p>
+<p align="center">
+  <img width="700" src="assets/week9/week9_3.png">
+</p>
 
+### How I Learned:
+To gain this knowledge, I engaged in a series of practical experiments with different AI models. My primary focus was on comparing the response quality and speed between Claude 3.5 Sonnet and Claude 3 Opus. Through these comparisons, I was able to identify the strengths and limitations of each model. Additionally, I uploaded various project documents—such as my resume, personal statement, and past project reports—into the AI’s knowledge base. By observing how the agent utilized these documents, I gained insights into the interplay between the knowledge base and the agent’s response mechanism. These hands-on activities, combined with iterative testing and prompt adjustments, provided a strong foundation for understanding how to build and refine AI systems.
+<p align="center">
+  <img width="700" src="assets/week9/week9_4.png">
+</p>
+<p align="center">
+  <img width="700" src="assets/week9/week9_6.png">
+</p>
 
+### State of Work:
+By the end of the week, I successfully created a prototype agent capable of delivering detailed and accurate representations of my professional identity. This agent effectively utilized RAG to generate context-specific responses, making it a valuable tool for applications like interview preparation and professional storytelling. The initial experiments also highlighted areas for potential improvement, such as optimizing prompt design and enhancing conversational adaptability.
+<p align="center">
+  <img width="700" src="assets/week9/week9_5.png">
+</p>
+
+## Speculations
+### Future of Tools:
+As I reflect on the potential of RAG-enabled AI systems, I envision a future where these tools redefine how individuals interact with technology on a personal and professional level. By offering unparalleled customization, such systems could transform into integral components of education and career development. For instance, AI agents could serve as personalized mentors, providing real-time feedback, or as interview coaches, helping users craft and refine their professional narratives. The ability to integrate vast amounts of contextual data seamlessly will likely position these tools as indispensable assets in both academic and professional settings.
+
+### Future of My Work:
+Looking ahead, I plan to enhance the agent’s capabilities further. Specifically, I aim to optimize token usage to enable the generation of concise yet comprehensive responses. Another area of focus will be exploring conversational adaptability by integrating role-specific prompts. This will allow the agent to simulate various professional roles and scenarios with greater authenticity and realism, thereby expanding its utility.
 
 # Week 8 Project2 
 <p align="center">
