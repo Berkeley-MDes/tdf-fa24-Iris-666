@@ -2,6 +2,7 @@
 This is Tian Qin. Welcome to my TDF repository :)
 
 # Menu
+[week 13](#week-13-Final-Project) \
 [week 12](#week-12-Final-Project-Ideation) \
 [week 11](#week-11-Zerowidth) \
 [week 10](#week-10-Mini-Me) \
@@ -17,6 +18,9 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 
 ---
+
+# Week 13 Final Project
+
 # Week 12 Final Project Ideation
 
 
