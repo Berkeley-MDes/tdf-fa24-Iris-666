@@ -21,11 +21,99 @@ This is Tian Qin. Welcome to my TDF repository :)
 
 # Week 13 Final Project
 
+
 # Week 12 Final Project Ideation
 
+## Reflections
+### What I Learned
+
+This week, I explored the domain of emotional design and human-AI interaction as part of the Project 4 proposal. The project, titled MOMOs, focuses on creating an emotional companion toy featuring two AI agents with distinct personalities. These agents are designed to detect and respond to a user’s emotional state, particularly unhappiness, fostering empathy and companionship. I learned about the potential of integrating affective computing with AI personality modeling to create tangible, emotionally supportive products.
+
+Additionally, I delved into the technical aspects of using LLMs (Large Language Models) for this project. The AI agents will leverage dialogues inspired by the Animal Crossing game, annotated with emotional contexts to enhance their personality traits. Fine-tuning these models to adopt specific characteristics—such as being empathetic and warm or playful and energetic—helped me understand the importance of personality modeling in creating believable and engaging AI interactions.
+
+I also explored integrating emotion-detection sensors, such as heart rate monitors and facial recognition, into the system. These sensors aim to identify a user’s emotional state in real time, mapping detected emotions to AI-generated dialogues. This combination of hardware and software presents exciting challenges and opportunities for crafting an emotionally resonant user experience.
+
+<p align="center">
+  <img width="700" src="assets/week12/week12_3.png">
+</p>
+<p align="center">
+  <img width="700" src="assets/week12/week12_4.png">
+</p>
+
+### How I Learned
+
+I reviewed relevant literature and technical documentation on affective computing, LLM fine-tuning, and hardware integration. The process involved examining the structure of Animal Crossing dialogues, identifying their emotional cues, and annotating these for training the AI models. I also researched sensor technologies and their potential for real-time emotion detection, which required a deeper understanding of how physiological and behavioral data can be translated into emotional states.
+
+Collaboration with my teammate, Xiao Peng, provided insights into hardware integration and prototyping. Together, we discussed how the sensors would interface with the AI models to ensure smooth communication and minimal latency. Testing preliminary ideas through sketches and diagrams helped clarify the overall system architecture.
+
+<p align="center">
+  <img width="700" src="assets/week12/week12_1.png">
+</p>
+<p align="center">
+  <img width="700" src="assets/week12/week12_2.png">
+</p>
+
+### State of Work
+
+By the end of the week, we finalized the project scope and objectives, developed a comprehensive system architecture diagram, and outlined the technical requirements for each component. The data preparation phase began with cleaning and annotating the dialogues for LLM training. Initial research into emotion-detection sensors has also been completed, setting the stage for experimentation in the coming weeks.
+
+<p align="center">
+  <img width="700" src="assets/week12/week12_1.gif">
+</p>
+
+## Speculations
+### Future of Tools:
+Emotional companion AI systems like MOMOs represent the convergence of AI, affective computing, and tangible product design. In the future, such systems could play a transformative role in mental health support, offering companionship and emotional guidance for children, the elderly, and individuals dealing with stress or isolation. Advances in sensor technologies, combined with more sophisticated AI personality modeling, may enable these tools to provide deeper and more meaningful interactions.
+
+Additionally, the integration of memory systems within AI agents could allow them to remember user preferences, emotional patterns, and previous interactions, making the experience more personalized over time. This evolution will likely lead to AI companions that feel increasingly intuitive and human-like, blurring the line between technology and emotional connection.
+
+### Future of My Work:
+Looking forward, my primary focus will be on fine-tuning the two LLMs to embody their distinct personalities and ensuring their dialogues reflect emotional appropriateness and contextual relevance. I also plan to experiment with different sensors to achieve high accuracy in emotion detection, aiming for a target of >85% accuracy. Another priority is to simulate AI-to-AI dialogues, refining their interactions to showcase the interplay of different personality traits. As we move into the prototyping phase, I aim to combine these elements into a cohesive and engaging user experience.
 
 # Week 11 Zerowidth
+## Reflections
+### What I Learned
+* This week, I embarked on exploring the Zerowidth API and integrating it into a Node.js server. The process began with foundational testing using Postman, a tool that allowed me to interact with the API endpoints and understand their behavior in a controlled environment. Through this exploration, I learned the importance of carefully structuring API requests to ensure accurate communication between the server and the agents. Testing with Postman also helped me identify the response format of the API, which was crucial for embedding the functionality into a dynamic server setup.
+<p align="center">
+  <img width="700" src="assets/week11/week11_1.png">
+</p>
 
+* Once I had a firm grasp of the API's capabilities and limitations, I proceeded to create a Node.js server using Glitch, an online platform for collaborative coding. This step was particularly challenging as it required combining backend development with API integration. I learned how to handle asynchronous operations within the server to accommodate the API's response time. Additionally, this phase deepened my understanding of how to structure endpoints and manage HTTP requests for real-time communication between agents.
+<p align="center">
+  <img width="700" src="assets/week11/week11_2.png">
+</p>
+
+* The most exciting achievement of the week was enabling two agents to have a seamless conversation. After initializing the dialogue with an initial message, the system successfully facilitated a back-and-forth exchange between the agents. Here’s how it works: once the first agent responds to the initial message, its response is captured and sent to the second agent via a POST request. The second agent processes this input and generates its own response, which is then sent back to the first agent, creating a conversational loop. This setup required meticulous handling of data flow to ensure that responses were passed between agents in the correct sequence without interruption.
+<p align="center">
+  <img width="700" src="assets/week11/week11_1.gif">
+</p>
+
+### How I Learned
+
+The learning process this week was deeply iterative, involving trial and error at every stage. My exploration of the Zerowidth API began with documentation review, which provided theoretical insights into the API’s endpoints and usage parameters. Testing with Postman helped bridge the gap between theory and practice, allowing me to experiment with different request formats and observe the API's behavior in real-time. This hands-on interaction was instrumental in understanding how to handle errors, such as malformed requests or unexpected responses.
+
+Building the Node.js server was another significant learning curve. I encountered challenges related to asynchronous programming, particularly managing callback functions and promises to handle the API's response time. Debugging these issues taught me how to use tools like console logs and error-handling middleware effectively. Additionally, I explored how to optimize the server’s performance by structuring the code for modularity and reusability, which will be beneficial as the project scales.
+
+The process of enabling agent-to-agent communication required a conceptual shift in how I approached the problem. Instead of viewing the agents as isolated entities, I began thinking of them as interconnected nodes within a dynamic system. This perspective helped me design the data flow between agents, ensuring that their responses were not only accurate but also contextually relevant.
+
+<p align="center">
+  <img width="700" src="assets/week11/week11_3.png">
+</p>
+
+### State of Work
+
+By the end of the week, I achieved a functional system where two agents could converse autonomously after receiving an initial prompt. This milestone represents a significant step forward in the project, as it demonstrates the feasibility of real-time agent-to-agent communication using the Zerowidth API. While the current setup is operational, there are areas for improvement, such as optimizing the data flow to reduce latency and ensuring that responses remain contextually aligned throughout extended conversations. These refinements will be my focus in the coming weeks.
+
+## Speculations
+### Future of Tools:
+The progress made with the Zerowidth API highlights the potential of multi-agent conversational systems to transform how AI interacts and collaborates. In the future, these tools could enable multi-agent ecosystems for tasks like brainstorming, customer service, or education, where agents simulate diverse perspectives or solve problems collectively. Such systems could become integral to collaborative platforms, streamlining workflows and enriching discussions.
+
+Advances in APIs like Zerowidth may also lead to adaptive multi-agent systems, where agents dynamically distribute tasks based on their strengths. This would be particularly valuable in fields requiring contextual awareness, such as healthcare or technical support.
+
+### Future of My Work:
+Building on this week’s achievements, I plan to enhance the communication flow between agents, introducing more complex interaction patterns, such as dynamic turn-taking or task-based specialization. Exploring scenarios where agents collaborate to solve problems or explain concepts in complementary ways is a key next step.
+
+I also aim to integrate learning mechanisms that allow agents to improve over time by analyzing their conversational patterns and user feedback. Adding sentiment analysis could further enhance their ability to provide empathetic and adaptive interactions.
 
 
 # Week 10 Mini Me
